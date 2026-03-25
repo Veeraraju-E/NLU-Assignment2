@@ -1,0 +1,21 @@
+name, in_corpus
+losi Shah, 0
+fdh Gupta, 0
+Farhan Acuro, 0
+karman Konde, 0
+Bhaksha Balasinha, 0
+Piyas Baldesi, 0
+Wates Acharya, 0
+karman Kumar, 0
+Achari, 1
+ya Appa, 0
+garna Jairwal, 1
+Pranav Acusto, 1
+mir Achari, 0
+thib Dasgupta, 0
+on Konder, 0
+Narendra Amari, 0
+thik Maphovya, 0
+quek Basuj Baldasa, 0
+esh Chaunar, 0
+Wajed Acharyya, 0

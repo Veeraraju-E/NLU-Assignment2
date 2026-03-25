@@ -1,0 +1,21 @@
+name, in_corpus
+Zayn Acusti, 1
+Tarachand Mazumdar, 1
+Mohan Rao, 1
+Zayn Acusti, 1
+Ajay Acres, 0
+Hemendra Gosal, 0
+Fayaz Iyer, 1
+Kartik Acharya, 0
+mareza Malhotra, 0
+Zeeshan Khare, 1
+Vighnesh Shrivastava, 0
+Haribhakti Chatterjee, 1
+Ajay Acres, 0 
+Eknath Agarwal, 1
+likarani Acuri, 0
+Farhan Kulkarni, 1
+Rajesh Biswas, 1
+handa Basu, 0
+Jaikumar Joshi, 1
+Ajay Acres, 0

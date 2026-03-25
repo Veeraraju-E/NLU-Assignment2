@@ -1,0 +1,11 @@
+.cursor
+.venv
+paper
+*.pdf
+*.csv
+
+__pycache__
+
+checkpoints
+
+generate_names
