@@ -1,0 +1,21 @@
+name, in_corpus
+ za, 0
+ BBi, 0
+ TTT, 0
+ BBa, 0
+ SB D, 0
+ de, 0
+ Uy, 0
+ e, 0
+ Z, 0
+ R, 0
+ O A, 0
+ ur, 0
+ dd, 0
+ Hwa, 0
+ yy, 0
+ Gr, 0
+ dd, 0
+ IN, 0
+ en, 0
+ Ull, 0
