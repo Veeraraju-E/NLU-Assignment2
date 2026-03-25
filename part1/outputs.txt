@@ -1,0 +1,128 @@
+Architecture: skipgram
+Vocab size: 7068 | Embedding dim: 300
+
+Top nearest neighbors using cosine similarity
+
+research:
+  1. attaining            cos=0.454849
+  2. globally             cos=0.424234
+  3. partnerships         cos=0.406698
+  4. engaged              cos=0.406006
+  5. expanding            cos=0.393713
+
+student:
+  1. thereby              cos=0.440347
+  2. hostel               cos=0.437645
+  3. superintendent       cos=0.427570
+  4. ptrq                 cos=0.427313
+  5. login                cos=0.425660
+
+phd:
+  1. btech                cos=0.587883
+  2. clearing             cos=0.536881
+  3. underway             cos=0.510948
+  4. suggesting           cos=0.509993
+  5. submitting           cos=0.505053
+
+examination:
+  1. syllabus             cos=0.601725
+  2. specify              cos=0.566641
+  3. throughout           cos=0.565945
+  4. grasp                cos=0.540843
+  5. taught               cos=0.535798
+
+director:
+  1. iiser                cos=0.752418
+  2. pune                 cos=0.738157
+  3. deans                cos=0.733759
+  4. sunil                cos=0.731911
+  5. vailas               cos=0.720468
+
+Analogy experiments (a : b :: c : ?)
+
+semester : sgpa :: degree : ?
+  1. obtained             cos=0.412686
+  2. prevail              cos=0.410303
+  3. calculation          cos=0.399796
+  4. fulfilled            cos=0.387995
+  5. earned               cos=0.377444
+
+course : grade :: thesis : ?
+  1. report               cos=0.518131
+  2. hod                  cos=0.470045
+  3. consideration        cos=0.456227
+  4. receipt              cos=0.451238
+  5. asked                cos=0.425276
+
+institute : director :: senate : ?
+  1. avi                  cos=0.532442
+  2. deans                cos=0.509377
+  3. vailas               cos=0.495605
+  4. pune                 cos=0.492868
+  5. sunil                cos=0.481486
+
+================== cbow ==================
+
+Loaded checkpoint: C:\Users\Veeraraju_elluru\Desktop\Veeraraju\IITJ\Senior_Year\Sem8\NLU\Assignment-2\part1\checkpoints\cbow
+Architecture: cbow
+Vocab size: 7068 | Embedding dim: 300
+
+Top nearest neighbors using cosine similarity
+
+research:
+  1. contemporarytopicsinartificialintelligenceandmay cos=0.949688
+  2. 122                  cos=0.940621
+  3. announced            cos=0.940020
+  4. updated              cos=0.937217
+  5. according            cos=0.931033
+
+student:
+  1. restart              cos=0.981578
+  2. against              cos=0.978676
+  3. vacations            cos=0.978033
+  4. has                  cos=0.977331
+  5. till                 cos=0.976522
+
+phd:
+  1. offers               cos=0.980391
+  2. finally              cos=0.974098
+  3. underway             cos=0.973903
+  4. sections             cos=0.967645
+  5. declared             cos=0.967613
+
+examination:
+  1. hod                  cos=0.984962
+  2. deanassociate        cos=0.984295
+  3. exception            cos=0.984067
+  4. consideration        cos=0.983476
+  5. copies               cos=0.982067
+
+director:
+  1. conformational       cos=0.922138
+  2. grievance            cos=0.920344
+  3. deliver              cos=0.905897
+  4. association          cos=0.903428
+  5. usa                  cos=0.898765
+
+Analogy experiments (a : b :: c : ?)
+
+semester : sgpa :: degree : ?
+  1. 48                   cos=0.858224
+  2. collins              cos=0.844982
+  3. discipline           cos=0.829937
+  4. alternative          cos=0.827177
+  5. dgpa                 cos=0.818987
+
+course : grade :: thesis : ?
+  1. portal               cos=0.902275
+  2. upload               cos=0.880734
+  3. md                   cos=0.878013
+  4. exceptional          cos=0.875668
+  5. strength             cos=0.866804
+
+institute : director :: senate : ?
+  1. entrepreneurs        cos=0.925004
+  2. warsaw               cos=0.891557
+  3. began                cos=0.883534
+  4. aiims                cos=0.875447
+  5. gandhinagar          cos=0.859120

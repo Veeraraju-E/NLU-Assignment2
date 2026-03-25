@@ -27,6 +27,11 @@ def main():
     print(f"Corpus file: {corpus_path}")
     print(f"Total tokens: {total_tokens}")
     print(f"Vocabulary size: {vocab_size}")
+    top_10 = token_counts.most_common(10)
+    top_10_flat = ", ".join(
+        f"{word}, {frequency}" for word, frequency in top_10
+    )
+    print(f"Top-10 words (frequency-wise): {top_10_flat}")
 
     wordcloud = WordCloud(
         width=1600,

@@ -65,13 +65,24 @@ def resolve_checkpoint_dir(path, architecture):
     )
 
 
+def write_student_embedding(checkpoint_dir, architecture, embeddings, word2idx):
+    if "student" not in word2idx:
+        raise ValueError("Word 'student' is not in vocabulary.")
+    vec = embeddings[word2idx["student"]]
+    values = ", ".join(f"{x:.4f}" for x in vec)
+    out_path = Path(checkpoint_dir) / f"{architecture}_student_embedding.txt"
+    out_path.write_text(f"Student- {values}\n", encoding="utf-8")
+    print(f"\nSaved student embedding to: {out_path}")
+
+
 def evaluate_one(checkpoint_dir, *, top_k):
     model, words, word2idx, metadata = Word2Vec.load_checkpoint(checkpoint_dir)
     embeddings = model.get_combined_embeddings()
     normalized = normalize_rows(embeddings)
+    architecture = metadata.get("architecture", "unknown")
 
     print(f"Loaded checkpoint: {checkpoint_dir}")
-    print(f"Architecture: {metadata.get('architecture', 'unknown')}")
+    print(f"Architecture: {architecture}")
     print(f"Vocab size: {len(words)} | Embedding dim: {embeddings.shape[1]}\n")
 
     query_words = ["research", "student", "phd", "examination", "director"]
@@ -97,6 +108,8 @@ def evaluate_one(checkpoint_dir, *, top_k):
             start=1,
         ):
             print(f"  {rank}. {candidate:20s} cos={score:.6f}")
+
+    write_student_embedding(checkpoint_dir, architecture, embeddings, word2idx)
 
 
 def main():
