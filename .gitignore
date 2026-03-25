@@ -3,9 +3,15 @@
 paper
 *.pdf
 *.csv
+*.png
 
 __pycache__
 
 checkpoints
 
 generate_names
+
+plots
+
+out
+
